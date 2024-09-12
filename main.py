@@ -1,5 +1,4 @@
 #Контейнер расчета
-f = open('input.txt', 'r') #изменил
 k, T, C, L = symbols('k C T L')
 #1 способ
 C_ost=30000

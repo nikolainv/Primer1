@@ -15,13 +15,13 @@ print('C_ost_lst:', C_ost_lst)
 
 #2 способ
 Aj=0
-C_ost=30000
+C_ost=100000
 Am_lst_2=[]
 C_ost_lst_2=[]
 for i in range(8):
   Am = k * 1/T * (C - Aj)
-  C_ost -= Am.subs({C: 30000, T:8, k:2})
-  Am_lst_2.append(round(Am.subs({C: 30000, T:8, k:2}), 2))
+  C_ost -= Am.subs({C: 100000, T:8, k:2})
+  Am_lst_2.append(round(Am.subs({C: 100000, T:8, k:2}), 2))
   Aj += Am
   C_ost_lst_2.append(round(C_ost, 2))
 print('Am_lst_2:', Am_lst_2)

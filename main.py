@@ -1,5 +1,5 @@
 #Контейнер расчета
-from sympy import *
+from import
 k, T, C, L = symbols('k C T L')
 #1 способ
 C_ost=30000 #изменил
